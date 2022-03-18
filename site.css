@@ -1,0 +1,37 @@
+body{background-color: #f5f5f5}
+.container{ margin-top: 20px;margin-bottom: 20px;}
+.right-body{}
+.left-body{background-color: white;}
+.no-padding{padding: 0;}
+h2{text-transform: uppercase; font-family: 'Lora', serif; display: inline-block; color: #09f}
+.img-size{font-size: 20px; width: 35px; height: 35px; color:#09f; background-color: gray; padding-top: 8px; text-align: center;}
+.left-wraper{padding: 50px 45px;}
+.margin-bottom-15{margin-bottom: 15px;}
+.company,.date{color: gray;}
+.job{font-weight: bold; font-size: 22px; margin: 0;}
+.my-info p{color: gray;}
+.name-project p {font-size: 18px; color: gray; margin: 0;}
+.technology span{display: inline-block; background-color: #e6e6fa; color: #330;font-size: 15px; padding: 5px; font-weight: 600; margin-bottom: 2px;}
+.scil-name {font-weight: 600;}
+.avatar-img{width: 80%;}
+.avatar{text-align: center; position: relative; top: 20px;}
+.right-body .my-info h1{color: white; text-align: center;}
+.right-body .my-info span{color: white; font-size: 20px; line-height: 1.5}
+.right-body .my-info{text-align: center; background-color: #09f;}
+.contact-data{background-color: #6ebff4;}
+.contact-data i,.contact-data a{color:white;}
+.contact-data a{font-size: 17px}
+.fa-icon{position: relative;top: 3px;text-align: -webkit-right; padding-right: 0px;}
+.email, .phone, .skype, .vk, .site{padding-top: 10px;}
+.education, .language, .interest{padding-top: 50px; background-color:#6ebff4; }
+.education .education-title span, .language .language-title span, .interest .interest-title span{text-transform: uppercase; margin-left: 30px; font-size: 18px;}
+.education span{color: white; font-weight: bold; font-size: 16px; display: block;}
+.education .row{padding-bottom: 20px;}
+.language span, .interest span{margin-bottom: 10px; color: white;display: block;}
+.interest{min-height:761px;}
+@media(max-width: 1199px ) {
+	.interest{min-height:964px;}
+}
+@media (max-width: 991px){
+	.interest{min-height:350px;}
+}
